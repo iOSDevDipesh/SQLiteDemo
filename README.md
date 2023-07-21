@@ -12,5 +12,22 @@ Design native iOS app (swift) which showcase the following actions in a sequence
 7. Dean logs in back and sees a list of his pending sessions - both A and B.
 
 Instructions - 
-1.Added hardcode certain university IDs to represent A n B n Dean.
-2.Since there are no BE APIs, app is work even without any internet on the mobile.
+1. Added hardcode certain university IDs to represent A n B n Dean.
+2. Since there are no BE APIs, app is work even without any internet on the mobile.
+3. After first time login it will create static/hard coded data for student, dean and session (For session static data for next 2 months)
+
+Login credential
+
+Student:
+universityId: studentA
+password: 1234
+
+universityId: studentB
+password: 1234
+
+Dean:
+universityId: dean1
+password: 1234
+
+universityId: dean2
+password: 1234
